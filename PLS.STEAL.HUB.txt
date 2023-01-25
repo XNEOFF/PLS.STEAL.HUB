@@ -1,60 +1,62 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/XNEOFF/PLS-STEAL-SOURCE/main/source.txt')))()
 
 OrionLib:MakeNotification({
-	Name = "PLS STEAL HUB",
-	Content = "Welcome To Pls Steal Hub! Have Fun!",
-	Image = "rbxassetid://4483345998",
-	Time = 5
+    Name = "PLS STEAL HUB",
+    Content = "Welcome To Pls Steal Hub! Have Fun!",
+    Image = "rbxassetid://4483345998",
+    Time = 5
 })
 
 
-local Window = OrionLib:MakeWindow({Name = "PLS STEAL HUB", HidePremium = false, SaveConfig = true, ConfigFolder = "Saves"})
+local Window = OrionLib:MakeWindow({
+    Name = "PLS STEAL HUB", HidePremium = false, SaveConfig = true, ConfigFolder = "Saves"
+})
 
 --Settings Tab--
 
 local SettingsTab = Window:MakeTab({
-	Name = "SCRIPT",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
+    Name = "SCRIPT",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
 })
 
 local SettingsSection = SettingsTab:AddSection({
-	Name = "PLS STEAL HUB"
+    Name = "PLS STEAL HUB"
 })
 
 SettingsSection:AddButton({
-	Name = "Delete 1 Cup",
-	Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/t56xYD6q"))()
-  	end    
+    Name = "Delete 1 Cup",
+    Callback = function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/t56xYD6q"))()
+    end
 })
 
 SettingsSection:AddButton({
-	Name = "Delete 2 Cup",
-	Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/uBgTKZQW"))()
-  	end    
+    Name = "Delete 2 Cup",
+    Callback = function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/uBgTKZQW"))()
+    end
 })
 
 SettingsSection:AddButton({
-	Name = "Delete 3 Cup",
-	Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/0gt6xj6S"))()
-  	end    
+    Name = "Delete 3 Cup",
+    Callback = function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/0gt6xj6S"))()
+    end
 })
 
 SettingsSection:AddButton({
-	Name = "Delete 4 Cup",
-	Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/4mEZ7pcu"))()
-  	end    
+    Name = "Delete 4 Cup",
+    Callback = function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/4mEZ7pcu"))()
+    end
 })
 
 SettingsSection:AddButton({
-	Name = "Delete 5 Cup",
-	Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/vZFgUdCa"))()
-  	end    
+    Name = "Delete 5 Cup",
+    Callback = function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/vZFgUdCa"))()
+    end
 })
 
 --Settings End--
