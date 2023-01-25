@@ -59,6 +59,8 @@ DeleteCupsSection:AddButton({
     end
 })
 
+--Delete Cups Tab End--
+
 --Restore Cups Tab--
 
 local RestoreCupsTab = Window:MakeTab({
