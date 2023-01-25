@@ -4,7 +4,7 @@ OrionLib:MakeNotification({
     Name = "PLS STEAL HUB",
     Content = "Welcome To Pls Steal Hub! Have Fun!",
     Image = "rbxassetid://4483345998",
-    Time = 0
+    Time = 1
 })
 
 
