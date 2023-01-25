@@ -4,7 +4,7 @@ OrionLib:MakeNotification({
     Name = "PLS STEAL HUB",
     Content = "Welcome To Pls Steal Hub! Have Fun!",
     Image = "rbxassetid://4483345998",
-    Time = 1
+    Time = 5
 })
 
 
@@ -12,53 +12,100 @@ local Window = OrionLib:MakeWindow({
     Name = "PLS STEAL HUB", HidePremium = false, SaveConfig = true, ConfigFolder = "Saves"
 })
 
---Settings Tab--
+--Delete Cups Tab--
 
-local SettingsTab = Window:MakeTab({
-    Name = "SCRIPT",
+local DeleteCupsTab = Window:MakeTab({
+    Name = "Delete Cups",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
-local SettingsSection = SettingsTab:AddSection({
-    Name = "PLS STEAL HUB"
+local DeleteCupsSection = DeleteCupsTab:AddSection({
+    Name = "Delete Cups",
 })
 
-SettingsSection:AddButton({
+DeleteCupsSection:AddButton({
     Name = "Delete 1 Cup",
     Callback = function()
     loadstring(game:HttpGet("https://pastebin.com/raw/t56xYD6q"))()
     end
 })
 
-SettingsSection:AddButton({
+DeleteCupsSection:AddButton({
     Name = "Delete 2 Cup",
     Callback = function()
     loadstring(game:HttpGet("https://pastebin.com/raw/uBgTKZQW"))()
     end
 })
 
-SettingsSection:AddButton({
+DeleteCupsSection:AddButton({
     Name = "Delete 3 Cup",
     Callback = function()
     loadstring(game:HttpGet("https://pastebin.com/raw/0gt6xj6S"))()
     end
 })
 
-SettingsSection:AddButton({
+DeleteCupsSection:AddButton({
     Name = "Delete 4 Cup",
     Callback = function()
     loadstring(game:HttpGet("https://pastebin.com/raw/4mEZ7pcu"))()
     end
 })
 
-SettingsSection:AddButton({
+DeleteCupsSection:AddButton({
     Name = "Delete 5 Cup",
     Callback = function()
     loadstring(game:HttpGet("https://pastebin.com/raw/vZFgUdCa"))()
     end
 })
 
---Settings End--
+--Restore Cups Tab--
+
+local RestoreCupsTab = Window:MakeTab({
+	Name = "Restore Cups",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local RestoreCupsSection = RestoreCupsTab:AddSection({
+	Name = "Restore Cups"
+})
+
+RestoreCupsSection:AddButton({
+Name = "Restore 1 Cup",
+    Callback = function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/6wJwPvsc"))()
+    end
+})
+
+RestoreCupsSection:AddButton({
+Name = "Restore 2 Cup",
+    Callback = function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/FTtcricY"))()
+    end
+})
+
+RestoreCupsSection:AddButton({
+Name = "Restore 3 Cup",
+    Callback = function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/Zm4ikqB0"))()
+    end
+})
+
+RestoreCupsSection:AddButton({
+Name = "Restore 4 Cup",
+    Callback = function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/t9JKEJqy"))()
+    end
+})
+
+RestoreCupsSection:AddButton({
+Name = "Restore 5 Cup",
+    Callback = function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/AJKjmFKY"))()
+    end
+})
+
+--Restore Cups Tab End--
 
 OrionLib:Init() --UI Lib En
